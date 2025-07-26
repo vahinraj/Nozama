@@ -33,3 +33,5 @@ A sleek, modern, and responsive e-commerce web application inspired by Amazon & 
 | Data Format   | JSON                         |
 | File Types    | `.js`, `.ts`, `.tsx`, `.html`, `.css` |
 
+This is the fully functioning website link 👇
+https://nozama-5zbv.vercel.app/
