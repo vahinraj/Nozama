@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# 🛒 E-Commerce Web App (Amazon/Flipkart Clone)
 
-## Project info
+A sleek, modern, and responsive e-commerce web application inspired by Amazon & Flipkart — built with **React**, **TypeScript**, **Vite**, and styled using **Tailwind CSS**. It offers all the essential features you'd expect in a real shopping app including dynamic cart, sorting, and responsive UI.
 
-**URL**: https://lovable.dev/projects/dcf4abe3-04ae-47dc-b1ae-86b567a3681e
+---
 
-## How can I edit this code?
+## 🔥 Features
 
-There are several ways of editing your application.
+- 🛍️ **Add to Cart**  
+  Dynamically add or remove items to/from the cart.
 
-**Use Lovable**
+- 🧮 **Sorting & Filtering**  
+  Sort products by price, name, or category using dropdowns or buttons.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dcf4abe3-04ae-47dc-b1ae-86b567a3681e) and start prompting.
+- 📱 **Responsive UI**  
+  Fully responsive across all screen sizes using Tailwind.
 
-Changes made via Lovable will be committed automatically to this repo.
+- 💅 **Hover Effects & Animations**  
+  Smooth and interactive hover transitions for an elegant user experience.
 
-**Use your preferred IDE**
+- 📦 **JSON-Based Product Data**  
+  All product info is loaded dynamically from a JSON file.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ⚡ **Built with Vite**  
+  Lightning-fast bundling and HMR for a super dev experience.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+| Layer         | Tech                         |
+|---------------|------------------------------|
+| Frontend      | React.js (with TypeScript)   |
+| Styling       | Tailwind CSS                 |
+| Build Tool    | Vite                         |
+| State Mgmt    | React Hooks + useContext     |
+| Data Format   | JSON                         |
+| File Types    | `.js`, `.ts`, `.tsx`, `.html`, `.css` |
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+💡 Future Enhancements
+🔐 Auth System (Login/Signup)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+🧾 Checkout Flow & Payment Integration
 
-**Edit a file directly in GitHub**
+🛒 Persistent Cart (LocalStorage/Backend)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🛍️ Real-time search & filtering
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dcf4abe3-04ae-47dc-b1ae-86b567a3681e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🌐 Backend Integration (Node/Firebase)
